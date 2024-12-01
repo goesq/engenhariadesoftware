@@ -18,7 +18,7 @@ class LibrarySystem:
         print(f"Sistema: Adicionando novo livro '{book_data['title']}' com código '{book_code}'.")
         self.books[book_code] = book_data
 
-    def edit_book(self, book_code, new_data):x
+    def edit_book(self, book_code, new_data):
         print(f"Sistema: Editando dados do livro com código '{book_code}'.")
         self.books[book_code] = new_data
 
